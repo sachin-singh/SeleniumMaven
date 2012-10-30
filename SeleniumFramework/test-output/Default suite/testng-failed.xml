@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.clogic.SeleniumFramework.ClassTest">
+        <methods>
+          <include name="importLeadsTest"/>
+          <include name="assignLeadsTest"/>
+          <include name="createProjectTest"/>
+          <include name="newAccountCreationTest"/>
+          <include name="newTest"/>
+          <include name="setUp"/>
+          <include name="assignAllAgentTest"/>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="updateCallCenterProfileTest"/>
+          <include name="loginAdmin"/>
+          <include name="assignAgentTest"/>
+          <include name="assignLeads"/>
+          <include name="deleteProjectTest"/>
+          <include name="testDialPlan"/>
+          <include name="createAgentTest"/>
+          <include name="verifyRoles"/>
+          <include name="newAccountCreationByAdminTest"/>
+        </methods>
+      </class> <!-- com.clogic.SeleniumFramework.ClassTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

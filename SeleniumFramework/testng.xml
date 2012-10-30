@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+     
+  <test name="Test" preserve-order="true" >
+      
+<!--       <groups> -->
+<!-- 		    <run> -->
+<!-- 		      <include name="NewAccountCreation"/> -->
+<!-- 		      <include name="DNCTabTest"></include> -->
+<!-- 		    </run> -->
+<!--   	</groups> -->
+      
+      
+    <classes>
+      
+      <class name="com.clogic.SeleniumFramework.ClassTest">
+          <methods>
+<!--               <include name="ClassTest"></include> -->
+<!--               <include name="login"></include> -->
+<!--               <include name="loginAdmin"></include> -->
+<!--               <include name=" newAccountCreation"></include> -->
+<!--               <include name="deleteProject"></include> -->
+<!--                    <include name="assignAllAgent"></include> -->
+<!-- 					<include name="assignLeads"></include> -->
+<!-- 					<include name="testDialPlan"></include> -->
+<!-- 					<include name="verifyRoles"></include> -->
+<!-- 					<include name="newAccountCreationTest"></include> -->
+<!-- 					<include name="newAccountCreationByAdminTest"></include> -->
+<!-- 					<include name="createCallCenterTest"></include> -->
+<!-- 					<include name="updateCallCenterProfileTest"></include> -->
+<!-- 					<include name="createProjectTest"></include> -->
+<!-- 					<include name="createAgentTest"></include> -->
+<!-- 					<include name="assignAgentTest"></include> -->
+<!-- 					<include name="buyPackageTest"></include> -->
+<!-- 					<include name="assignPackageTest"></include> -->
+<!-- 					<include name="importLeadsTest"></include> -->
+<!-- 					<include name="assignLeadsTest"></include> -->
+<!-- 					<include name="newTest"></include> -->
+<!-- 					<include name="searchLeadTest"></include> -->
+<!-- 					<include name="bulkUpdateTest"></include> -->
+<!--               		<include name="addNewLeadTest"></include> -->
+<!--               		<include name="scrubLeadTest"></include> -->
+<!--               		<include name="addLeadListTest"></include> -->
+<!--                		<include name="addCRMFieldTest"></include> -->
+<!-- 						<include name="callerIdTest"></include> -->
+<!-- 						<include name="uploadTonesTest"></include> -->
+<!-- 						<include name="removeTonesTest"></include> -->
+							<include name="agentPortalRolesTest"></include>
+          </methods>
+          </class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
